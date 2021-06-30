@@ -66,3 +66,11 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.early.sf.duration=16000000
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.early.app.duration=16500000
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.earlyGl.sf.duration=13500000
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.earlyGl.app.duration=21000000
+
+
+# PixelPlusUI OFFICIAL
+ro.ppui.device_name=Realme X3
+ro.ppui.version=3.6
+ro.ppui.version_code=Unicorn
+ro.ppui.is_official=true
+ro.ppui.maintainer_name=NishantKumar6342

@@ -134,3 +134,7 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Google apps permissions
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/configs/permissions/privapp-permissions-gapps.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-gapps.xml
