@@ -1082,4 +1082,7 @@
     <string name="config_SmartChargingSuspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
+    <!-- Turn off dark theme by default -->
+    <integer name="config_defaultNightMode">0</integer>
+
 </resources>
