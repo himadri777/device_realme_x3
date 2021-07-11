@@ -25,7 +25,7 @@ $(call inherit-product, device/realme/x3/device.mk)
 $(call inherit-product, vendor/oplauncher/OPLauncher.mk)
 
 # Inherit some common PPUI stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
