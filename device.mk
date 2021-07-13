@@ -91,9 +91,7 @@ PRODUCT_PACKAGES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/handheld_core_hardware.xml \
-	$(LOCAL_PATH)/configs/permissions/privapp_whitelist_net.oneplus.launcher.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp_whitelist_net.oneplus.launcher.xml \
-	$(LOCAL_PATH)/configs/permissions/privapp-permissions-op-launcher.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-op-launcher.xml
+    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/handheld_core_hardware.xml
 
 # RCS
 PRODUCT_PACKAGES += \
