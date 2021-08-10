@@ -73,7 +73,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += debug.sf.earlyGl.app.duration=21000000
 
 # PixelPlusUI OFFICIAL
 ro.ppui.device_name=Realme X3
-ro.ppui.version=3.7
-ro.ppui.version_code=Ragnarok
+ro.ppui.version=3.8
+ro.ppui.version_code=Hikaru
 ro.ppui.is_official=true
 ro.ppui.maintainer_name=NishantKumar6342
