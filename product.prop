@@ -28,6 +28,7 @@ dalvik.vm.isa.arm64.variant=cortex-a76
 
 # Display
 ro.sf.lcd_density=480
+persist.sys.sf.native_mode=1
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.set_display_power_timer_ms=1000
