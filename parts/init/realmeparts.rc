@@ -31,7 +31,7 @@ on property:perf_profile=1
 	write /sys/class/kgsl/kgsl-3d0/force_bus_on 1
 	write /sys/class/kgsl/kgsl-3d0/force_rail_on 1
 	write /sys/class/kgsl/kgsl-3d0/force_no_nap  1
-	
+	write /sys/module/lpm_levels/parameters/sleep_disabled Y
 
 on property:perf_profile=0
     write /dev/stune/top-app/schedtune.boost 1
@@ -41,3 +41,5 @@ on property:perf_profile=0
 	write /sys/class/kgsl/kgsl-3d0/force_bus_on 0
 	write /sys/class/kgsl/kgsl-3d0/force_rail_on 0
 	write /sys/class/kgsl/kgsl-3d0/force_no_nap  0
+	write /sys/module/lpm_levels/parameters/sleep_disabled N
+	
