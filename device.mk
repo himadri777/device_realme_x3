@@ -143,3 +143,8 @@ PRODUCT_COPY_FILES += \
 # OnePlus Gallery
 PRODUCT_PACKAGES += \
     OPGallery
+
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+	
